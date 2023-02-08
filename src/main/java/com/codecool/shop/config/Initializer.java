@@ -19,6 +19,7 @@ import java.math.BigDecimal;
 public class Initializer {
     @Autowired
     public void contextInitialized() {
+
         ProductDao productDataStore = ProductDaoMem.getInstance();
         ProductCategoryDao productCategoryDataStore = ProductCategoryDaoMem.getInstance();
         SupplierDao supplierDataStore = SupplierDaoMem.getInstance();

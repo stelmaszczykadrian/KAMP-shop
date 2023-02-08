@@ -25,5 +25,8 @@ public class ProductService{
         return productDao.getBy(category);
     }
 
+    public Product getProductById(int id){
+        return productDao.find(id);
+    }
 
 }
