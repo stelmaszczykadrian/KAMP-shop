@@ -16,6 +16,7 @@ public class WebSecurityConfig {
         http
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/home").permitAll()
+                        .requestMatchers("/api/carts").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
                 .formLogin((form) -> form
@@ -31,8 +32,8 @@ public class WebSecurityConfig {
     public UserDetailsService userDetailsService() {
         UserDetails user =
                 User.withDefaultPasswordEncoder()
-                        .username("user")
-                        .password("password")
+                        .username("a")
+                        .password("a")
                         .roles("USER")
                         .build();
         UserDetails admin =
