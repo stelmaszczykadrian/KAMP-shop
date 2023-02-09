@@ -84,3 +84,9 @@
 .supplier {
     margin-top: 20px;
 }
+
+@media (min-width: 1025px) {
+    .h-custom {
+        height: 100vh !important;
+    }
+}
