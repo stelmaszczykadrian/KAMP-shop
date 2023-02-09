@@ -34,7 +34,7 @@
 <div class="jumbotron text-center">
     <div onclick="window.location.href = '/'"><img src="/static/img/kampshop.jpg" name="kampshop_logo"></div>
 <!--    <button onclick="window.location.href = '/';"><h1>Codecool Shop</h1></button>-->
-    <button type="button" class="btn btn-primary">Cart<span class="bi bi-basket"></span></button>
+    <button type="button" class="btn btn-primary" onclick="window.location.href='http://localhost:8888/cart'">Cart<span class="bi bi-basket" ></span></button>
 </div>
 <form th:action="@{/logout}" method="post">
     <input type="submit" value="Sign Out"/>
@@ -68,7 +68,7 @@
                                 <p class="lead" th:text="${prod.getPrice()}">100 USD</p>
                             </div>
                             <div class="card-text">
-                                <a class="btn btn-success" methods="get" th:href="@{'/buy/' + ${prod.id}}">Add to cart</a>
+                                <a class="btn btn-success" methods="post" th:href="@{'/buy/' + ${prod.id}}">Add to cart</a>
                             </div>
                         </div>
                     </div>
