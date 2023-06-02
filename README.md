@@ -1,5 +1,6 @@
-![kampshop](https://github.com/stelmaszczykadrian/KAMP-shop-2.0/assets/106514178/050d149a-f819-4090-9671-3ac2162f3ea3)
-
+<p align="center">
+  <img src="https://github.com/stelmaszczykadrian/KAMP-shop-2.0/assets/106514178/050d149a-f819-4090-9671-3ac2162f3ea3" alt="logo">
+</p>
 <br><br>
 🛒 Step into our enchanting online marketplace and experience the joy of buying and selling like never before!
 Our sleek eCommerce web-application invites you to browse a vast array of products, add them to your shopping cart with a simple click,
@@ -9,16 +10,13 @@ and proceed to a seamless checkout process.
 
 <br><br>
 **This version does not include a database connection. Moreover, it represents our first attempt at utilizing Spring, despite our limited knowledge about it at the time. We embarked on this project with enthusiasm, eager to explore the possibilities of this framework. However, we acknowledge that our understanding of Spring was in its nascent stage.**
+<br><br><br>
 
-**KAMP Shop 2.0 :**
+**Welcome to the second version of our KAMP Shop 2.0 online store! 🎉**
 <br>
-https://github.com/stelmaszczykadrian/KAMP-shop-2.0
+**Head over to:** [KAMP Shop 2.0](https://github.com/stelmaszczykadrian/KAMP-shop-2.0)
 
-
-
-
-
-
+<br>
 
 ## :star: Technologies
 <ul>
@@ -28,6 +26,3 @@ https://github.com/stelmaszczykadrian/KAMP-shop-2.0
   <li>Spring Boot</li>
   <li>Bootstrap</li>
 </ul>
-
-## :rocket: Screenshoots!
-<br><br>
